@@ -1,0 +1,22 @@
+.page_header {
+  margin-bottom: 2rem;
+  text-align: center;
+  line-height: 1.5;
+
+  > .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+
+  > .description {
+    font-size: 1.5rem;
+    color: $color-brand--tertiary;
+  }
+
+  @include setColorChange($color-brand--primary, $color-brand--secondary)
+}
+
+.title > .highlight {
+  animation: color-alternate 1s infinite alternate;
+}
