@@ -1,0 +1,12 @@
+@mixin setColorChange($color-1, $color-2) {
+  @keyframes color-alternate {
+    0% {
+      color: $color-1;
+    }
+    
+    100% {
+      
+      color: $color-2;
+    }
+  }
+}
