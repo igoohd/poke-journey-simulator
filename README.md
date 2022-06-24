@@ -1,34 +1,177 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Dashboard de vendas 
+[![NPM](https://img.shields.io/npm/l/react)](https://gitlab.com/Igoohd/projeto-sds3/-/blob/master/LICENSE) 
 
-## Getting Started
+# Sobre o projeto
 
-First, run the development server:
+https://igoohd-dsvendas.netlify.app/
+
+Dashboard de vendas é uma aplicação full stack web e mobile construída durante a 3ª edição da **Semana DevSuperior** (#sds3), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+
+A aplicação consiste em um dashboard de vendas que coleta dados de vendedores em relação ao seu fluxo de trabalho, e depois exibe no app web, que também apresenta gráficos baseados nestes dados.
+
+## Layout mobile
+![Mobile 1](frontend/src/assets/Mobile_1.png) ![Mobile 2](frontend/src/assets/Mobile_2.png) ![Mobile 3](frontend/src/assets/Mobile_3.png)
+
+## Layout web
+![Web 1](frontend/src/assets/Desktop_1.png)
+
+![Web 2](frontend/src/assets/Desktop_2.png)
+
+## Estrutura de camadas
+![Estrutura de camadas](frontend/src/assets/layers_structure.png)
+
+## Modelo conceitual
+![Modelo Conceitual](frontend/src/assets/UML.png)
+
+# Tecnologias
+## Back end
+- Java
+- Spring Boot
+- Spring Data JPA
+- Spring Security
+- Maven
+## Front end
+- JavaScript
+- ReactJS
+- TypeScript
+- HTML
+- CSS
+- Bootstrap
+- Apex Charts
+## Deploy
+- Back-end: Heroku
+- Front-end web: Netlify
+- Banco de dados: Postgresql 12
+
+# Como começar
+
+## Back end
+Pré-requisitos: Java 11
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone o repositório
+$ git clone https://gitlab.com/Igoohd/projeto-sds3
+
+# Entre na pasta back-end do projeto
+$ cd backend
+
+# Inicie o projeto
+$ ./mvnw spring-boot:run
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Front end web
+Pré-requisitos: npm / yarn
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Clone o repositório
+$ git clone https://gitlab.com/Igoohd/projeto-sds3
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+# Entre na pasta front-end do projeto
+$ cd frontend
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+# Instale as dependências
+$ yarn install
 
-## Learn More
+# Inicie o projeto
+$ yarn start
 
-To learn more about Next.js, take a look at the following resources:
+# Acesse o localhost
+http://localhost:3000
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Autor
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Igor Duarte de Matos Madureira
 
-## Deploy on Vercel
+https://www.linkedin.com/in/igorduartematos/
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+# English Vesion
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+# Sales dashboard
+[![NPM](https://img.shields.io/npm/l/react)](https://gitlab.com/Igoohd/projeto-sds3/-/blob/master/LICENSE)
+
+# About the project
+
+https://igoohd-dsvendas.netlify.app/
+
+Sales Dashboard is a full stack web and mobile application built during the 3rd edition of **Semana DevSuperior** (#sds3), event organized by [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+
+The application consists of a sales dashboard that collects data from salespeople regarding their workflow, and then displays it in the web app, which also presents graphs based on this data.
+
+## Mobile Layout
+![Mobile 1](frontend/src/assets/Mobile_1.png) ![Mobile 2](frontend/src/assets/Mobile_2.png) ![Mobile 3](frontend/src/assets/Mobile_3.png)
+
+## web layout
+![Web 1](frontend/src/assets/Desktop_1.png)
+
+![Web 2](frontend/src/assets/Desktop_2.png)
+
+## Layer structure
+![Layers Structure](frontend/src/assets/layers_structure.png)
+
+## Conceptual model
+![Conceptual Model](frontend/src/assets/UML.png)
+
+# Technologies
+## Back end
+- Java
+- Spring Boot
+- SpringData JPA
+- Spring Security
+- Maven
+## Front end
+- JavaScript
+- ReactJS
+- TypeScript
+- HTML
+- CSS
+- Bootstrap
+- Apex Charts
+## Deploy
+- Backend: Heroku
+- Web frontend: Netlify
+- Database: Postgresql 12
+
+# How to begin
+
+## Back end
+Prerequisites: Java 11
+
+```bash
+# Clone the repository
+$ git clone https://gitlab.com/Igoohd/projeto-sds3
+
+# Enter the project's backend folder
+$ cd backend
+
+# Start the project
+$ ./mvnw spring-boot:run
+```
+
+## Front end web
+Prerequisites: npm / yarn
+
+```bash
+# Clone the repository
+$ git clone https://gitlab.com/Igoohd/projeto-sds3
+
+# Enter the project's front-end folder
+$ cd frontend
+
+# Install dependencies
+$ yarn install
+
+# Start the project
+$ yarn start
+
+# Access localhost
+http://localhost:3000
+```
+
+# Author
+
+Igor Duarte de Matos Madureira
+
+https://www.linkedin.com/in/igorduartematos/
